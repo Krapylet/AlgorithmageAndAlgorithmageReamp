@@ -1,6 +1,6 @@
 # Algorithmage + Algorithmage revamp
 "Algorithmage er et Action RPG hvor du selv skaber dine evner fra bunden vha. et custrom programmeringssprog. Til at starte med har du kun en enkelt lille besværgelse som eksempel, men efterhånden som du skaber andre algoritmagere's troldbøger får du eksempler på nye keywords og spells der kan skrives. Kun din fantasi sætter grænser."
-Jeg startede med at udvikle en hurtigt prototype til algorithmage på en uge for præcis et år siden, for at lære at lave et programmeringssprog. Ud over et par kuriøsiteter er sproget er meget C-like. Der er ikke specielt meget gameplay i spillet endnu, men en fuld parser, lexer, tokenizer og delvis compuler er implementeret.
+Jeg startede med at udvikle en hurtigt prototype til algorithmage på en uge for præcis et år siden, for at lære at lave et programmeringssprog. Ud over et par kuriøsiteter er sproget er meget C-like. Der er ikke specielt meget gameplay i spillet endnu, men en fuld lexer, parser, tokenizer og delvis interpreter er implementeret.
 
 
 Der ligger både et build og alle source filerne i dette repo.
@@ -16,4 +16,14 @@ I tekstredigeringsfeltet kan du enten skrive en ny besværgelse eller rette i en
 For at kaste en besværgelse i spillet skal du blot klikke 1, 2 eller 3 osv. tilsvarende til besværgelsens index i troldbogen. Den øverste besværgelse har index 1.
 
 ## Besværgelsessyntax
-Siden det er et år siden jeg arbejde på projektet (og fordi jeg ikke skrev det ned) kan jeg ikke huske hvor meget af syntaxen var nået at blive implementeret eller hvordan den så ud. Kig på IceBall besværgelsen for et meget simpelt eksempel. Alle numæriske værdier kan ændres, og nogen element typer er også implementeret, f.eks. "Fire" og "Ice".
+Her er et eksempel på en Fireball besværgelse:
+_
+Target : Circle
+Scale: 10
+Range: 20    
+CastTime: 3   # Everything after a '#' is ignored
+Cooldown: 4
+Body: {
+	TARGETS.Damage(30, Fire);
+}_
+. Alle numæriske værdier kan ændres, og nogen element typer er også implementeret, f.eks. "Fire" og "Ice".
