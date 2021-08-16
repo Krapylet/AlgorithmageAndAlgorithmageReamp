@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 02083c221cad70246be294fb873670ad
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - SpellRangeMarker: {instanceID: 0}
+  - SpellCursor: {instanceID: 0}
+  - Circle: {fileID: 21300000, guid: 01d2f362d6aec3f4f9647040b1308d1a, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

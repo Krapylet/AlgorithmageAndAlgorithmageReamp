@@ -1,0 +1,33 @@
+{
+    "name": "MenuControls",
+    "maps": [
+        {
+            "name": "Menu",
+            "id": "e2869e77-b240-45c6-8231-e038ae37f382",
+            "actions": [
+                {
+                    "name": "Toggle",
+                    "type": "Button",
+                    "id": "d8b7153d-e433-4736-8430-272f5e8793b3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7ec508a2-b36e-4f8d-a888-d55daa3a2f4d",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
