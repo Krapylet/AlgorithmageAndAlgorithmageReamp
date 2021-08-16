@@ -14,6 +14,7 @@ For at læse en gemt besværgelse skal du blot klikke på dens navn i venstre ko
 I tekstredigeringsfeltet kan du enten skrive en ny besværgelse eller rette i en gammel besværgelse. Klik "Quick save" for at gemme besværgelsen under navnet af den sidste besværgelse der blev loadet. For istedet at gemme som en ny besværgelse gives først et nyt navn over tekstredigeringsfeltet hvorefter du skal klikke "Save as".
 
 For at kaste en besværgelse i spillet skal du blot klikke 1, 2 eller 3 osv. tilsvarende til besværgelsens index i troldbogen. Den øverste besværgelse har index 1.
+(Lige nu er det kun besværgelse nr. 1 der kan kastes.)
 
 ## Besværgelsessyntax
 Her er et eksempel på en Fireball besværgelse:
@@ -24,6 +25,6 @@ Range: 20
 CastTime: 3   # Everything after a '#' is ignored
 Cooldown: 4
 Body: {
-	TARGETS.Damage(30, Fire);
+	TARGETS.Damage(5, Fire);
 }_
-. Alle numæriske værdier kan ændres, og nogen element typer er også implementeret, f.eks. "Fire" og "Ice".
+. Alle numæriske værdier kan ændres, og nogen element typer kan være hvad som helst. "Fire" og "Ice" har forskellige effekter på fjenderne i spillet.
