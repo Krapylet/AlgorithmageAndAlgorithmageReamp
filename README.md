@@ -2,7 +2,7 @@
 
 https://user-images.githubusercontent.com/37876827/129513256-66ddf5fc-47df-490d-8823-12fc72fdd370.mp4
 
-# Algorithmage - Danish
+# Algorithmage - English
 "Algortihmage is an action RPG in which you finally get to live out the fantasy of being a mighy mage inventing new spells. Rather than learning or selecting premade spells, you code your own spells in this game though a custom programming language. If you can dream it, you can cast it! You'll start off with a small example of a simple spell, and will then have to experiment with what you know or expolore the world to find new knowledge you can incorporate into your spells."
 Currently I'm working on reworking the spell creation laguage to be programmed through player made drawings and diagrams rather than words.
 
