@@ -1,4 +1,12 @@
-# Algorithmage
+(Tech demo)
+
+https://user-images.githubusercontent.com/37876827/129513256-66ddf5fc-47df-490d-8823-12fc72fdd370.mp4
+
+# Algorithmage - Danish
+"Algortihmage is an action RPG in which you finally get to live out the fantasy of being a mighy mage inventing new spells. Rather than learning or selecting premade spells, you code your own spells in this game though a custom programming language. If you can dream it, you can cast it! You'll start off with a small example of a simple spell, and will then have to experiment with what you know or expolore the world to find new knowledge you can incorporate into your spells."
+Currently I'm working on reworking the spell creation laguage to be programmed through player made drawings and diagrams rather than words.
+
+# Algorithmage - Danish
 "Algorithmage er et Action RPG hvor du selv skaber dine evner fra bunden vha. et custrom programmeringssprog. Til at starte med har du kun en enkelt lille besværgelse som eksempel, men efterhånden som du skaber andre algoritmagere's troldbøger får du eksempler på nye keywords og spells der kan skrives. Kun din fantasi sætter grænser."
 Jeg startede med at udvikle en hurtigt prototype til algorithmage på en uge for præcis et år siden, for at lære at lave et programmeringssprog. Ud over et par kuriositeter er sproget er meget C-like. Der er ikke specielt meget gameplay i spillet endnu, men en fuld lexer, parser, tokenizer og delvis interpreter er implementeret.
 
